@@ -1,6 +1,10 @@
 eclipse.preferences.version=1
 encoding//src/file_rename.py=utf8
 encoding//src/regex.py=utf8
-encoding//src/test_gui/hide_widget.py=utf-8
+encoding//src/test_gui/pyqt_hide_widget.py=utf-8
+encoding//src/test_gui/pyqt_layout.py=utf-8
+encoding//src/test_gui/pyqt_layout_absolute.py=utf-8
+encoding//src/test_gui/pyqt_layout_box.py=utf-8
+encoding//src/test_gui/pyqt_layout_grid.py=utf-8
 encoding//src/test_gui/pyqt_textlist.py=utf-8
 encoding//src/test_gui/qtdesigner.py=utf-8
