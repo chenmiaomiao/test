@@ -25,8 +25,8 @@ class Example(QtGui.QWidget):
         
     def initUI(self):
         
-        okButton = QtGui.QPushButton("OK")
-        cancelButton = QtGui.QPushButton("Cancel")
+        okButton = QtGui.QPushButton("1")
+        cancelButton = QtGui.QPushButton("2")
 
         hbox = QtGui.QHBoxLayout()
         hbox.addStretch(1)
