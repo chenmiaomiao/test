@@ -37,12 +37,11 @@ headers = {
     'X-Requested-With': 'XMLHttpRequest',
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36',
     'DNT':'1',
-    'Referer': 'http://q.stock.sohu.com/hisHq',
-    'Accept-Encoding': 'gzip, deflate, sdch',
+    'Referer': 'http://www.baidu.com',
     'Accept-Language': 'zh-CN,zh;q=0.8,ja;q=0.6'
     }
 
-req = urllib2.Request('http://q.stock.sohu.com/hisHq?code=cn_600028&start=20150918&end=20160115&stat=1&order=D&period=d&callback=historySearchHandler&rt=jsonp&r=0.5620633495524285&0.07780711725972944', None, headers)
+req = urllib2.Request('http://127.0.0.1/test/iframe-success.php', None, headers)
 respnse = urllib2.urlopen(req, timeout = 10)
 html = respnse.read()
 print html
