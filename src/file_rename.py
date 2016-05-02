@@ -3,11 +3,7 @@
 import os
 import sys
 
-# path = u'F:/Tutorial/Python/GUI/(专辑)Python_GUI_Development_with_Qt_-_Introduction_-_Video_1/'
-
-path = str(raw_input('Please type your folder: ')).decode('utf-8')
-
-#print path.decode('utf-8')
+path = u'D:/(专辑)Python_GUI_Development_with_Qt_-_Introduction_-_Video_1/'
 
 for (path, dirs, files) in os.walk(path):
     print path
