@@ -67,7 +67,7 @@ class Worker(QThread):
 
     def __init__(self, parent = None):
     
-        QThread.__init__(self, parent)
+        QThread.__init__(self, parent = None)
         self.exiting = False
         self.size = QSize(0, 0)
         self.stars = 0

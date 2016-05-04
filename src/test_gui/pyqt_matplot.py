@@ -39,7 +39,7 @@ class Window(QtGui.QDialog):
         data = [random.random() for i in range(10)]
 
         # create an axis
-        ax = self.figure.add_subplot(111)
+        ax = self.figure.add_subplot(232)
 
         # discards the old graph
         ax.hold(False)
