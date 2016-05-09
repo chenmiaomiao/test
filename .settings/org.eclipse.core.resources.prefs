@@ -1,5 +1,9 @@
 eclipse.preferences.version=1
 encoding//src/file_rename.py=utf8
+encoding//src/flights/alitrip.py=utf8
+encoding//src/flights/alitrip_json.py=utf8
+encoding//src/flights/bestflightmain.py=utf8
+encoding//src/flights/ctrip_urllib.py=utf8
 encoding//src/regex.py=utf8
 encoding//src/test_gui/lambda_partial.py=utf8
 encoding//src/test_gui/pyqt_hide_widget.py=utf-8
