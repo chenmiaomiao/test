@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'csc108', 
+    'api',
+    'rest_framework', 
     'snail', 
     'subtitle',
     'fund', 

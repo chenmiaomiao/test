@@ -20,6 +20,8 @@ urlpatterns = [
     url(r'^$', include('subtitle.urls')), 
     url(r'^admin/', admin.site.urls),
     url(r'^subtitle/', include('subtitle.urls')), 
-    url(r'kpi/', include('kpi.urls')), 
-    url(r'fund/', include('fund.urls'))
+    url(r'^kpi/', include('kpi.urls')), 
+    url(r'^fund/', include('fund.urls')), 
+    url(r'^api/', include('api.urls')), 
+    url(r'^csc108/', include('csc108.urls'))
 ]

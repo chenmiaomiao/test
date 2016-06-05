@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Snail{% endblock %}</title>
+    {% load staticfiles %}
+    <link rel="shortcut icon" type="image/png" href="{%  static 'favicon.ico' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'csc108/css/style.css' %}"/>
+    <script src="{% static 'jquery/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script> 
+    <script src="{% static 'csc108/js/main.js' %}"></script>
+</head>
+<body>
+<div class="row">
+	<nav class="navbar col-sm-offset-3 col-sm-6">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="{% url 'csc108:index' %}">
+				<!--img src="{% static 'csc108/image/logo.jpg' %}" /-->
+				<strong>中信建投证券网上开户</strong>
+			</a>
+		</div>
+	</nav>
+</div>
+
+<div class="row">
+	<div class="container">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				{% block body %}
+				{% endblock %}
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

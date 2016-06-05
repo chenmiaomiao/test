@@ -2,4 +2,18 @@
 
 {% block body %}
 <span>Eureka! <span>
+<br />
+{% for each_task in submitted_tasks %}
+<span>{{ each_task }}</span>
+{% endfor %}
+
+<br />
+{{ submitted_tasks }}
+<br />
+{{ tasks_available }}
+<br />
+{{ task_total }}
+<br />
+{{ task_factor }}
+
 {% endblock %}

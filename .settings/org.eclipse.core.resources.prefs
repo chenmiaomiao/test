@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/file_rename.py=utf8
+encoding//src/file_rename2.py=utf8
 encoding//src/flights/alitrip.py=utf8
 encoding//src/flights/alitrip_json.py=utf8
 encoding//src/flights/alitrip_urllib.py=utf8
@@ -15,3 +16,8 @@ encoding//src/test_gui/pyqt_layout_box.py=utf-8
 encoding//src/test_gui/pyqt_layout_grid.py=utf-8
 encoding//src/test_gui/pyqt_textlist.py=utf-8
 encoding//src/test_gui/qtdesigner.py=utf-8
+encoding//src/website/csc108/models.py=utf8
+encoding//src/website/csc108/templates/csc108/form_template.html=UTF-8
+encoding//src/website/fund/migrations/0001_initial.py=utf-8
+encoding//src/website/fund/migrations/0002_auto_20160523_2224.py=utf-8
+encoding//src/website/fund/migrations/0003_auto_20160523_2234.py=utf-8

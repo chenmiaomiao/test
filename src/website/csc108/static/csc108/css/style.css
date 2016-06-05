@@ -1,0 +1,28 @@
+body .navbar {
+	background: #ff0000; 
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand {
+	float: none;
+	color: #ffffff
+}
+
+
+.id-button {
+	display: block;
+	width: 100%;
+}
+
+img {
+	height: 216px;
+	width: 342.4px;
+	object-fit: contain;
+	overflow: hidden;
+}

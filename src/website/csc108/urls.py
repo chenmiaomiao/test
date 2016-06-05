@@ -16,9 +16,9 @@ Including another URLconf
 from django.conf.urls import url, include
 from . import views
 
-app_name = 'fund'
+app_name = 'csc108'
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^add-order/$', views.add_order, name='add-order')
+    url(r'^video/$', views.video, name='video'),
 ]
